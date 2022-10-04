@@ -12,15 +12,26 @@ public class CarEngine : MonoBehaviour {
     public WheelCollider wheelBackLeft;
     public WheelCollider wheelBackRight;
     public float maxMotorTorque = 80f;
+    public float maxBrakeTorque = 150f;
     public float currentSpeed;
     public float maxSpeed = 100f;
+    public Vector3 centerOfMass;
+    public bool isBraking = false;
+    public Texture2D textureNormal;
+    public Texture2D textureBraking;
+    public Renderer carRenderer;
 
+
+    [Header("Sensors")]
+    public float sensorLenght = 5f;
 
     private List<Transform> nodes;
     private int currentNode = 0;
 
-    void Start()
-    {
+        private void Start() {
+
+        GetComponent<Rigidbody>().centerOfMass = centerOfMass;
+
         Transform[] pathTransforms = path.GetComponentsInChildren<Transform>();
         nodes = new List<Transform>();
 
@@ -37,12 +48,19 @@ public class CarEngine : MonoBehaviour {
 
     private void FixedUpdate()
     {
-
+        Sensors();
         ApplySteer();
         Drive();
         CheckWaypointDistance();
+        Braking();
 
 
+    }
+
+    private void Sensors()
+    {
+        RaycastHit hit;
+        Vector3 sensorStartingPos = transform.position;
     }
     private void ApplySteer()
     {
@@ -56,7 +74,7 @@ public class CarEngine : MonoBehaviour {
     {
         currentSpeed = 2 * Mathf.PI * wheelFrontLeft.radius * wheelFrontLeft.rpm * 60 / 1000;
 
-        if (currentSpeed < maxSpeed)
+        if (currentSpeed < maxSpeed && !isBraking)
         {
             wheelFrontLeft.motorTorque = maxMotorTorque;
             wheelFrontRight.motorTorque = maxMotorTorque;
@@ -88,6 +106,21 @@ public class CarEngine : MonoBehaviour {
                 currentNode++;
             }
         }
+    }
+
+    private void Braking()
+    {
+        if (isBraking)
+        {
+            carRenderer.material.mainTexture = textureBraking;
+            wheelBackLeft.brakeTorque = maxBrakeTorque;
+            wheelBackRight.brakeTorque = maxBrakeTorque;
+        }
+        else
+        {
+            carRenderer.material.mainTexture = textureNormal;
+            wheelBackLeft.brakeTorque = 0f;
+            wheelBackRight.brakeTorque = 0f;        }
     }
 }
 

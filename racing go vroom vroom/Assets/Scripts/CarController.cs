@@ -21,12 +21,16 @@ public class CarController : MonoBehaviour
     public float breakingForce = 300f;
     public float maxTurnAngle = 15f;
 
+    public Rigidbody rb;
+
     private float currentAcceleration = 0f;
     private float currentBreakForce = 0f;
     private float currentTurnAngle = 0f;
 
     private void FixedUpdate()
     {
+        rb = GetComponent<Rigidbody>();
+        rb.AddForce(0, 0, 200);
         float forward = Input.GetAxis("Vertical");
         float reverse = Input.GetAxis("Vertical");
         float turning = Input.GetAxis("Horizontal");
@@ -89,6 +93,11 @@ public class CarController : MonoBehaviour
         currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
         frontLeft.steerAngle = currentTurnAngle;
         frontRight.steerAngle = currentTurnAngle;
+
+
+      
+        
+
 
 
         UpdateWheel(frontLeft, frontLeftTransform);

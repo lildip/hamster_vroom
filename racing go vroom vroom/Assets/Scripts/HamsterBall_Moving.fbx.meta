@@ -34,7 +34,164 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Moving
+      takeName: Moving
+      internalID: 0
+      firstFrame: 5
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/HamsterBall_Skinned:Left_cap_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/HamsterBall_Skinned:Right_cap_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/L_hip_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/L_hip_joint/L_knee_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/L_hip_joint/L_knee_joint/L_foot_joint/L_ball_joint/L_toe_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/R_hip_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/R_hip_joint/R_knee_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/R_hip_joint/R_knee_joint/R_foot_joint/R_ball_joint/R_toe_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_middle_joint_01
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_middle_joint_01/L_middle_joint_02
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_middle_joint_01/L_middle_joint_02/L_middle_joint_03
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_pinky_joint_01
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_pinky_joint_01/L_pinky_joint_02
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_pinky_joint_01/L_pinky_joint_02/L_pinky_joint_03
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_thumb_joint_01
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_thumb_joint_01/L_thumb_joint_02
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/L_coller_joint/L_shoulder_joint/L_elbow_joint/L_forarm_joint/L_wrist_joint/L_hand_joint/L_thumb_joint_01/L_thumb_joint_02/L_thumb_joint_03
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/jaw_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/L_ear_01_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/L_ear_01_joint/L_ear_02_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/L_ear_01_joint/L_ear_02_joint/L_ear_03_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/L_eye_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/nose_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/R_ear_01_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/R_ear_01_joint/R_ear_02_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/R_ear_01_joint/R_ear_02_joint/R_ear_03_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/neck_joint/head_joint/R_eye_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_middle_joint_01
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_middle_joint_01/R_middle_joint_02
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_middle_joint_01/R_middle_joint_02/R_middle_joint_03
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_pinky_joint_01
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_pinky_joint_01/R_pinky_joint_02
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_pinky_joint_01/R_pinky_joint_02/R_pinky_joint_03
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_thumb_joint_01
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_thumb_joint_01/R_thumb_joint_02
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/spine_01_joint/spine_02_joint/spine_03_joint/R_coller_joint/R_shoulder_joint/R_elbow_joint/R_forarm_joint/R_wrist_joint/R_hand_joint/R_thumb_joint_01/R_thumb_joint_02/R_thumb_joint_03
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/tail_01_joint
+        weight: 1
+      - path: HamsterBall_Skinned:Root_joint/HamsterBall_Skinned:Full_body_joint/root_joint/pelvis_joint/tail_01_joint/tail_02_joint
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 5
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -92,15 +249,16 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: HamsterBall_Skinned:Root_joint
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: fbc468f49244ed94fa00aed3e5ab5589,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 

@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 931a085e1e601e245a0759003840de22
+guid: 9594ee519d1114a41ba8427724a3707d
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: -1891260892074715185
-    second: Turn Right
+      74: -3100369314251171874
+    second: Idle
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -36,18 +36,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Turn Right
-      takeName: Turn Right
+      name: Idle
+      takeName: Idle
       internalID: 0
-      firstFrame: 310
-      lastFrame: 331
+      firstFrame: 80
+      lastFrame: 188
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -193,7 +193,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 80
     isReadable: 0
   meshes:
     lODScreenPercentages: []
